@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Law Firm | About</title>
+    <link href="./output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Raleway', sans-serif;
+            background: rgba(36, 36, 36, 1);
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: 'Baskervville', 'Raleway', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="text-white">
+    <header class="relative min-h-[100px] md:hidden">
+        <div class="bg-black bg-opacity-80 py-[23px] md:px-[23px] fixed md:sticky top-0 right-0 left-0 z-40">
+            <a href="index.html" class="text-center">
+                <img src="assets/images/logo.svg" alt="Absolute Legal" class="w-auto h-6 md:h-[45px] mx-auto">
+                <h1
+                    class="uppercase text-[#F2F2F2] leading-[20.69px] tracking-[1.5px] mt-2 md:text-[32px] md:leading-[41.38px]">
+                    Absolute
+                    Legal</h1>
+            </a>
+            <div id="navbar-open-btn" class="absolute -translate-y-1/2 top-1/2 right-5 md:hidden cursor-pointer">
+                <img src="assets/images/menu-closed.svg" class="w-[18px] h-[13px]" />
+            </div>
+            <!-- navbar mobile section -->
+            <nav id="navbar-mobile"
+                class="fixed z-20 min-h-screen inset-0 bg-[rgba(36,_36,_36,_1)] flex-col justify-center space-y-10 hidden">
+                <img id="navbar-close-btn" src="assets/images/menu-close-icon.svg"
+                    class="w-8 h-8 absolute top-10 right-6 cursor-pointer" />
+                <img src="assets/images/menu-open-logo.svg" class="w-[179px] h-[64.75px] mx-auto" />
+                <ul
+                    class="text-[#F2F2F2] flex flex-col items-center text-sm font-semibold tracking-[1px] uppercase space-y-10">
+                    <li><a href="/about.html" class="hover:text-gray-400">About</a></li>
+                    <li><a href="/services.html" class="hover:text-gray-400">Services</a></li>
+                    <li><a href="/careers.html" class="hover:text-gray-400">Careers</a></li>
+                    <li><a href="/gallery.html" class="hover:text-gray-400">Gallery</a></li>
+                    <li><a href="/testimonials.html" class="hover:text-gray-400">Testimonials</a></li>
+                    <li><a href="/contact.html" class="hover:text-gray-400">Contact</a></li>
+                </ul>
+            </nav>
+            <!-- navbar web section -->
+            <nav class="mt-5 hidden md:block max-w-[1320px] mx-auto">
+                <ul
+                    class="flex justify-between items-center font-semibold text-[14px] leading-[16.44px] tracking-[2px] uppercase border-t-[2px] border-t-[rgba(242,_242,_242,_0.1)] pt-6 space-y-4 md:space-y-0 text-[#F2F2F2]">
+                    <li><a href="/about.html" class="active:text-[#8C7158]">About</a></li>
+                    <li><a href="/services.html" class="active:text-[#8C7158]">Services</a></li>
+                    <li><a href="/careers.html" class="active:text-[#8C7158]">Careers</a></li>
+                    <li><a href="/gallery.html" class="active:text-[#8C7158]">Gallery</a></li>
+                    <li><a href="/testimonials.html" class="active:text-[#8C7158]">Testimonials</a></li>
+                    <li><a href="/contact.html" class="active:text-[#8C7158]">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- 1. Hero Section -->
+    <section class="h-[360px] md:h-[560px] relative">
+        <div class="bg-black bg-opacity-80 py-[23px] md:px-[23px] sticky top-0 right-0 left-0 hidden md:block">
+            <a href="index.html" class="text-center">
+                <img src="assets/images/logo.svg" alt="Absolute Legal" class="w-auto h-6 md:h-[45px] mx-auto">
+                <h1
+                    class="uppercase text-[#F2F2F2] leading-[20.69px] tracking-[1.5px] mt-2 md:text-[32px] md:leading-[41.38px]">
+                    Absolute
+                    Legal</h1>
+            </a>
+            <div id="navbar-open-btn" class="absolute -translate-y-1/2 top-1/2 right-5 md:hidden cursor-pointer">
+                <img src="assets/images/menu-closed.svg" class="w-[18px] h-[13px]" />
+            </div>
+            <!-- navbar web section -->
+            <nav class="mt-5 hidden md:block max-w-[1320px] mx-auto">
+                <ul
+                    class="flex justify-between items-center font-semibold text-[14px] leading-[16.44px] tracking-[2px] uppercase border-t-[2px] border-t-[rgba(242,_242,_242,_0.1)] pt-6 space-y-4 md:space-y-0 text-[#F2F2F2]">
+                    <li><a href="/about.html" class="active:text-[#8C7158]">About</a></li>
+                    <li><a href="/services.html" class="active:text-[#8C7158]">Services</a></li>
+                    <li><a href="/careers.html" class="active:text-[#8C7158]">Careers</a></li>
+                    <li><a href="/gallery.html" class="active:text-[#8C7158]">Gallery</a></li>
+                    <li><a href="/testimonials.html" class="active:text-[#8C7158]">Testimonials</a></li>
+                    <li><a href="/contact.html" class="active:text-[#8C7158]">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="absolute inset-0 z-[-1]">
+            <img src="assets/images/about/hero.png" alt="Absolute Law Firm"
+                class="w-full h-full object-cover md:hidden" />
+            <img src="assets/images/about/hero-lg.png" alt="Absolute Law Firm"
+                class="hidden md:block w-full h-full object-cover" />
+        </div>
+        <div class="flex flex-col gap-[18px] text-[#F2F2F2] justify-center items-center h-[360px]">
+            <h2 class="text-[24px] italic font-normal leading-[31.03px] tracking-[2px] text-center">About Us</h2>
+            <div class="flex items-center gap-2">
+                <a href="index.html" class="text-[14px] font-semibold leading-[16.44px] text-center">Home</a>
+                <img src="assets/images/list-arrow-bullets.png" class="w-4 h-4" />
+                <a href="#" class="text-[14px] font-medium leading-[16.44px] text-center">About</a>
+            </div>
+        </div>
+    </section>
+    <!-- 2. Our Vision -->
+    <section
+        class="pt-20 pb-10 px-4 flex flex-col gap-10 lg:grid lg:grid-cols-2 lg:justify-center lg:max-w-[1320px] lg:mx-auto lg:py-20 lg:p-0 lg:h-screen lg:rounded-tl-[80px] lg:rounded-tr-[80px] lg:overflow-hidden lg:sticky lg:top-0 lg:z-[1]">
+        <div class="min-w-[328px] min-h-[386px] md:max-w-[629px] md:max-h-auto mx-auto">
+            <div class="min-w-full min-h-full p-[10px] border-[1.23px] border-dashed border-[#8C7158]">
+                <img src="assets/images/about/our-vision.png" class="w-full h-full" />
+            </div>
+        </div>
+        <div class="flex flex-col gap-8 lg:max-w-[533px]">
+            <div class="flex flex-col gap-4">
+                <div class="flex items-center gap-4">
+                    <p class="text-[14px] lg:text-[16px] font-semibold leading-[21px] tracking-[2px] text-[#8C7158]">OUR
+                        VISION</p>
+                    <img src="assets/images/text-arrow-right.png" class="w-10 h-3" />
+                </div>
+                <h2 class="capitalize text-2xl text-[#F2F2F2] lg:text-[32px] leading-[54px]">We are the leading law firm
+                    industry</h2>
+                <p class="leading-8 tracking-[0.5px] text-justify">At Absolute Legal Law Firm, we believe in
+                    justice, equity, and the power of the law to make a difference in people's
+                    lives. Our commitment to these principles drives us to provide top-notch legal services, and
+                    we take pride in
+                    representing our clients with passion, integrity, and a tireless dedication to their cases.
+                </p>
+            </div>
+            <div class="flex gap-10 justify-center">
+                <div class="flex flex-col items-center gap-2">
+                    <div class="relative">
+                        <img src="assets/images/percent-container-dodged.png"
+                            class="h-[70px] w-[70px] lg:min-h-[140px] lg:min-w-[140px]" />
+                        <p
+                            class="text-[12px] font-medium leading-[14px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                            75%</p>
+                    </div>
+                    <p class="font-medium text-[12px] leading-[14px] text-center text-[#BCBCBC]">Civil Rights</p>
+                </div>
+                <div class="flex flex-col items-center gap-2">
+                    <div class="relative">
+                        <img src="assets/images/percent-container-dodged.png"
+                            class="h-[70px] w-[70px] lg:min-h-[140px] lg:min-w-[140px]" />
+                        <p
+                            class="text-[12px] font-medium leading-[14px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                            95%</p>
+                    </div>
+                    <p class="font-medium text-[12px] leading-[14px] text-center text-[#BCBCBC]">Family Law</p>
+                </div>
+                <div class="flex flex-col items-center gap-2">
+                    <div class="relative">
+                        <img src="assets/images/percent-container-dodged.png"
+                            class="h-[70px] w-[70px] lg:min-h-[140px] lg:min-w-[140px]" />
+                        <p
+                            class="text-[12px] font-medium leading-[14px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                            85%</p>
+                    </div>
+                    <p class="font-medium text-[12px] leading-[14px] text-center text-[#BCBCBC]">Criminal Defense</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 3. Our Mission -->
+    <section
+        class="pt-20 pb-10 px-4 flex flex-col gap-10 lg:bg-[#0B0B0B] lg:grid lg:grid-cols-2 lg:justify-center lg:p-0 lg:h-screen lg:overflow-hidden lg:rounded-tl-[80px] lg:rounded-tr-[80px] lg:sticky lg:top-0 lg:z-[2]">
+        <div class="space-y-4 lg:hidden">
+            <h2 class="text-2xl text-[#F2F2F2] uppercase tracking-[3px] text-center">Our Mission</h2>
+            <div class="border-[2px] border-[solid] border-[#846B54] mt-4 mx-auto w-20"></div>
+        </div>
+        <div class="min-w-[328px] lg:w-[600px] lg:overflow-hidden lg:-mt-5 lg:col-[2/3] lg-row[1/1]">
+            <img src="assets/images/about/our-mission.png" class="w-full h-auto lg:hidden" />
+            <img src="assets/images/about/our-mission-lg.png" class="w-full h-auto hidden lg:block" />
+        </div>
+        <div
+            class="lg:col-[1/2] lg:row-[1/1] lg:flex lg:flex-col lg:min-h-full lg:justify-center lg:items-center lg:gap-[46px]">
+            <div class="lg:space-y-[46px]">
+                <h1 class="hidden lg:block text-[80px] leading-[103px] tracking-[3px]">OUR MISSION</h1>
+                <ul class="space-y-6 lg:max-w-[472px]">
+                    <li class="flex gap-2 items-baseline">
+                        <img src="assets/images/list-arrow-white-right.png" class="w-[18px] h-[18px]" />
+                        <p class="text-[#BCBCBC] leading-[30px] tracking-[1px] text-justify">
+                            our mission is simple but profound to make quality legal representation accessible to all,
+                            regardless of their financial
+                            situation.
+                        </p>
+                    </li>
+                    <li class="flex gap-2 items-baseline">
+                        <img src="assets/images/list-arrow-white-right.png" class="w-[18px] h-[18px]" />
+                        <p class="text-[#BCBCBC] leading-[30px] tracking-[1px] text-justify">
+                            we understand that the legal system can be complex and intimidating, and we are here to
+                            level
+                            the
+                            playing field.
+                        </p>
+                    </li>
+                    <li class="flex gap-2 items-baseline">
+                        <img src="assets/images/list-arrow-white-right.png" class="w-[18px] h-[18px]" />
+                        <p class="text-[#BCBCBC] leading-[30px] tracking-[1px] text-justify">
+                            our pro bono services are a cornerstone of our firm, enabling us to reach out and assist
+                            those
+                            in
+                            need, ensuring that
+                            justice is not just a privilege for a few but a right for all.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+    <!-- 4. Our Clients -->
+    <section
+        class="pt-20 pb-10 px-4 space-y-10 lg:bg-[#242424] lg:flex lg:flex-col lg:justify-center lg:p-0 lg:h-screen lg:rounded-tl-[80px] lg:rounded-tr-[80px] lg:overflow-hidden lg:sticky lg:top-0 lg:z-[2]">
+        <div class="px-4 space-y-4">
+            <div>
+                <h2 class="text-[24px] leading-[31.03px] text-center">Our Client's
+                </h2>
+                <div class="border-[2px] border-[solid] border-[#846B54] mt-4 mx-auto w-20"></div>
+            </div>
+            <p class="text-[#797979] text-[14px] leading-[24px] tracking-[1px] text-center">We have had the pleasure of
+                working some clients</p>
+        </div>
+        <div>
+            <div
+                class="flex justify-center md:grid md:grid-cols-[repeat(3,_312px)] xl:grid-cols-[repeat(4,_312px)] md:gap-10">
+                <div class="w-[312px] h-[214px] bg-[#1E1E1E] flex justify-center items-center">
+                    <img src="assets/images/clients/client-1.svg" class="w-[150px] h-auto" />
+                </div>
+                <div class="hidden md:flex w-[312px] h-[214px] bg-[#1E1E1E] justify-center items-center">
+                    <img src="assets/images/clients/client-1.svg" class="w-[150px] h-auto" />
+                </div>
+                <div class="hidden md:flex w-[312px] h-[214px] bg-[#1E1E1E] justify-center items-center">
+                    <img src="assets/images/clients/client-1.svg" class="w-[150px] h-auto" />
+                </div>
+                <div class="hidden md:flex w-[312px] h-[214px] bg-[#1E1E1E] justify-center items-center">
+                    <img src="assets/images/clients/client-1.svg" class="w-[150px] h-auto" />
+                </div>
+                <div class="hidden md:flex w-[312px] h-[214px] bg-[#1E1E1E] justify-center items-center">
+                    <img src="assets/images/clients/client-1.svg" class="w-[150px] h-auto" />
+                </div>
+                <div class="hidden md:flex w-[312px] h-[214px] bg-[#1E1E1E] justify-center items-center">
+                    <img src="assets/images/clients/client-1.svg" class="w-[150px] h-auto" />
+                </div>
+                <div class="hidden md:flex w-[312px] h-[214px] bg-[#1E1E1E] justify-center items-center">
+                    <img src="assets/images/clients/client-1.svg" class="w-[150px] h-auto" />
+                </div>
+                <div class="hidden md:flex w-[312px] h-[214px] bg-[#1E1E1E] justify-center items-center">
+                    <img src="assets/images/clients/client-1.svg" class="w-[150px] h-auto" />
+                </div>
+            </div>
+            <div class="flex gap-3 pt-10 justify-center">
+                <div class="w-3 h-3 bg-[#8C7158] rotate-45"></div>
+                <div class="w-3 h-3 bg-[rgba(60,_60,_60,_0.3)] rotate-45"></div>
+                <div class="w-3 h-3 bg-[rgba(60,_60,_60,_0.3)] rotate-45"></div>
+                <div class="w-3 h-3 bg-[rgba(60,_60,_60,_0.3)] rotate-45"></div>
+            </div>
+        </div>
+    </section>
+    <!-- 5. Legal Minds -->
+    <section
+        class="py-20 px-4 flex flex-col gap-10 lg:justify-center lg:bg-[#0B0B0B] lg:p-0 lg:h-screen lg:overflow-hidden lg:rounded-tl-[80px] lg:rounded-tr-[80px] lg:sticky lg:top-0 lg:z-[3]">
+        <div class="space-y-4">
+            <p
+                class="uppercase font-semibold text-[14px] lg:text-[16px] leading-[21px] tracking-[2px] text-center text-[#8C7158]">
+                MEET
+                OUR TEAM</p>
+            <div class="space-y-6">
+                <h2
+                    class="capitalize text-[24px] leading-[31px] tracking-[1px] text-center lg:text-[40px] lg:leading-[60px] lg:tracking-[1px]">
+                    the Legal Minds Behind Our
+                    Success</h2>
+                <div class="border-[2px] border-[solid] border-[#846B54] mt-4 mx-auto w-28"></div>
+            </div>
+        </div>
+        <div class="flex flex-col gap-6 items-center lg:flex-row lg:items-start lg:justify-center lg:gap-16">
+            <div
+                class="w-[328px] h-[328px] p-4 relative border-[1.23px] border-dashed border-[#8C7158] lg:w-[536px] lg:h-[500px]">
+                <img src="assets/images/minds/mind-1.png" class="w-full h-full" />
+                <div
+                    class="h-[75px] w-full flex flex-col justify-center gap-2 bg-[rgba(36,_36,_36,_0.3)] text-[#F2F2F2] absolute bottom-4 left-4 px-4 lg:hidden">
+                    <p class="leading-[20px]">Enter Name</p>
+                    <p class="text-[12px] leading-[14px] font-semibold">Partner</p>
+                </div>
+            </div>
+            <div
+                class="w-[328px] h-[328px] p-4 relative border-[1.23px] border-dashed border-[#8C7158] lg:w-[536px] lg:h-[500px]">
+                <img src="assets/images/minds/mind-2.png" class="w-full h-full" />
+                <div
+                    class="h-[75px] w-full flex flex-col justify-center gap-2 bg-[rgba(36,_36,_36,_0.3)] text-[#F2F2F2] absolute bottom-4 left-4 px-4 lg:hidden">
+                    <p class="leading-[20px]">Enter Name</p>
+                    <p class="text-[12px] leading-[14px] font-semibold">Partner</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 6. Footer -->
+    <section
+        class="rounded-tl-[40px] rounded-tr-[40px] md:rounded-tl-[80px] md:rounded-tr-[80px] flex flex-col gap-10 overflow-hidden bg-[#1C1D1E] md:sticky md:top-0 md:z-[7] md:min-h-screen md:justify-between">
+        <div class="h-[233px] md:hidden opacity-80">
+            <img src="assets/images/footer-img.png" class="h-full w-full" />
+        </div>
+        <div class="h-[233px] hidden md:block opacity-80">
+            <img src="assets/images/footer-img-lg-sc.png" class="h-full w-full" />
+        </div>
+        <div class="max-w-[1320px] mx-auto flex flex-col gap-10 text-[#F2F2F2]">
+            <div class="flex flex-col gap-10 px-4 lg:flex-row lg:justify-between">
+                <div class="flex flex-col gap-6 max-w-[383px] w-full">
+                    <div class="space-y-2 text-[#F2F2F2]">
+                        <h2 class="text-[24px] leading-[31px]">
+                            ABSOLUTE LEGAL
+                        </h2>
+                        <p class="text-[14px] leading-[30px] text-justify">Our Squad of Attorneys are always here to
+                            provide
+                            you the best and efficient service. Still, if you want to know more about us and our firm,
+                            you can connect with us</p>
+                    </div>
+                    <div class="flex gap-6">
+                        <div class="w-8 h-8 p-2 bg-[#8C7158] rounded-full">
+                            <img src="assets/images/social/fb.png" class="w-4 h-4" />
+                        </div>
+                        <div class="w-8 h-8 p-2 bg-[#8C7158] rounded-full">
+                            <img src="assets/images/social/twitter.png" class="w-4 h-4" />
+                        </div>
+                        <div class="w-8 h-8 p-2 bg-[#8C7158] rounded-full">
+                            <img src="assets/images/social/insta.png" class="w-4 h-4" />
+                        </div>
+                        <div class="w-8 h-8 p-2 bg-[#8C7158] rounded-full">
+                            <img src="assets/images/social/youtube.png" class="w-4 h-4" />
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-10 lg:flex-row lg:flex-wrap lg:justify-evenly">
+                    <div class="flex flex-col gap-8">
+                        <div class="space-y-2">
+                            <h4 class="text-[24px] leading-[31px]">Services</h4>
+                            <div class="border-[2px] border-[solid] border-[#8C7158] w-[50px]"></div>
+                        </div>
+                        <ul class="space-y-6">
+                            <li>
+                                <a href="index.html" class="flex gap-2 items-center">
+                                    <img src="assets/images/list-arrow-bullets.png" class="w-4 h-4" />
+                                    <p class="text-[14px] leading-[24px]">Family Law</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html" class="flex gap-2 items-center">
+                                    <img src="assets/images/list-arrow-bullets.png" class="w-4 h-4" />
+                                    <p class="text-[14px] leading-[24px]">Education Law</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html" class="flex gap-2 items-center">
+                                    <img src="assets/images/list-arrow-bullets.png" class="w-4 h-4" />
+                                    <p class="text-[14px] leading-[24px]">Civil Law</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html" class="flex gap-2 items-center">
+                                    <img src="assets/images/list-arrow-bullets.png" class="w-4 h-4" />
+                                    <p class="text-[14px] leading-[24px]">Criminal Law</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html" class="flex gap-2 items-center">
+                                    <img src="assets/images/list-arrow-bullets.png" class="w-4 h-4" />
+                                    <p class="text-[14px] leading-[24px]">Business Law</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="flex flex-col gap-8">
+                        <div class="space-y-2">
+                            <h4 class="text-[24px] leading-[31px]">Quick Links</h4>
+                            <div class="border-[2px] border-[solid] border-[#8C7158] w-[50px]"></div>
+                        </div>
+                        <ul class="space-y-6">
+                            <li>
+                                <a href="index.html" class="flex gap-2 items-center">
+                                    <img src="assets/images/list-arrow-bullets.png" class="w-4 h-4" />
+                                    <p class="text-[14px] leading-[24px]">Home</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html" class="flex gap-2 items-center">
+                                    <img src="assets/images/list-arrow-bullets.png" class="w-4 h-4" />
+                                    <p class="text-[14px] leading-[24px]">About Us</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html" class="flex gap-2 items-center">
+                                    <img src="assets/images/list-arrow-bullets.png" class="w-4 h-4" />
+                                    <p class="text-[14px] leading-[24px]">Careers</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html" class="flex gap-2 items-center">
+                                    <img src="assets/images/list-arrow-bullets.png" class="w-4 h-4" />
+                                    <p class="text-[14px] leading-[24px]">Practice Area</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="flex flex-col gap-8">
+                        <div class="space-y-2">
+                            <h4 class="text-[24px] leading-[31px]">Find Us</h4>
+                            <div class="border-[2px] border-[solid] border-[#8C7158] w-[50px]"></div>
+                        </div>
+                        <ul class="space-y-6">
+                            <li>
+                                <a href="index.html" class="flex gap-2 ">
+                                    <img src="assets/images/footer-icons/map.png" class="w-6 h-6" />
+                                    <p class="text-[14px] leading-[24px] text-justify">no. 17, lakshmi street, new avadi
+                                        road,
+                                        kilpauk, chennai - 600 010</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html" class="flex gap-2 ">
+                                    <img src="assets/images/footer-icons/phone.png" class="w-6 h-6" />
+                                    <p class="text-[14px] leading-[24px] text-justify">+91 90947 63630, +91- 44- 2642
+                                        4200</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html" class="flex gap-2 ">
+                                    <img src="assets/images/footer-icons/mail.png" class="w-6 h-6" />
+                                    <p class="text-[14px] leading-[24px] text-justify">admin@absolutelegal.in</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html" class="flex gap-2 ">
+                                    <img src="assets/images/footer-icons/clock.png" class="w-6 h-6" />
+                                    <p class="text-[14px] leading-[24px] text-justify">Mon - sun, 10:00AM - 23:00 PM</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t-[1px] border-t-[#565655] border-solid min-h-[100px] py-5 px-4">
+                <p class="text-[14px] font-medium leading-[30px] tracking-[1px] text-center">Copyright © 2023 Absolute -
+                    Designed By <span class="font-semibold text-[#8C7158]">Vimi Magic</span></p>
+            </div>
+        </div>
+    </section>
+    <script>
+        const closeBtn = document.querySelector('#navbar-close-btn');
+        const openBtn = document.querySelector('#navbar-open-btn');
+        const navbar = document.querySelector("#navbar-mobile");
+
+        closeBtn.addEventListener("click", (event) => {
+            console.log(event)
+            navbar.classList.add('hidden')
+        })
+
+        openBtn.addEventListener("click", (event) => {
+            navbar.classList.remove('hidden');
+            navbar.classList.add('flex');
+        })
+    </script>
+</body>
+
+</html>

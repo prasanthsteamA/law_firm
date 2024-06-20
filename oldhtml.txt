@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Law Firm</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="home-header-banner-img-wrapper"><img src="assets/images/home/header.svg" alt="Absolute Law Firm">
+        </div>
+        <div class="home-header-container">
+            <div class="logo">
+                <img src="assets/images/logo.svg" alt="Absolute Legal">
+                <h1>Absolute Legal</h1>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#careers">Careers</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="min-h-100vh border-top-curved relative">
+        <div class="about-container">
+            <a href="#about" class="link-arrow-btn"><img src="assets/images/arrow-btn.svg" /></a>
+            <div class="about-img-container">
+                <img src="assets/images/home/about-image.jpeg" alt="Law Office" class="about-img">
+            </div>
+            <div class="about-text">
+
+                <h2 class="section-sider-heading">About Our Firm</h2>
+                <ul>
+                    <li> <img class="list-bullet-img" src="assets/images/list-rectangle-style.svg" alt="bullet" />
+                        <p>Absolute Legal Law Firm, we believe in justice, equity, and the power of the law to make a
+                            difference in people's
+                            lives.</p>
+                    </li>
+                    <li> <img class="list-bullet-img" src="assets/images/list-rectangle-style.svg" alt="bullet" />
+                        <p>our commitment to these principles drives us to provide top-notch legal services, and we take
+                            pride in representing our
+                            clients with passion, integrity, and a tireless dedication to their cases.
+                            lives.</p>
+                    </li>
+                    <li> <img class="list-bullet-img" src="assets/images/list-rectangle-style.svg" alt="bullet" />
+                        <p>when you choose us, you are choosing not just legal representation but also a committed
+                            partner
+                            in your quest of
+                            justice, equity, and a brighter future.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
