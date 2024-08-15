@@ -1,4 +1,4 @@
-backend/
+```backend/
 │
 ├── config/
 │   ├── db.js               # Database configuration and connection
@@ -23,3 +23,4 @@ backend/
 ├── server.js               # Main server entry point
 ├── package.json            # Node.js dependencies and scripts
 └── README.md               # Instructions and documentation
+```
